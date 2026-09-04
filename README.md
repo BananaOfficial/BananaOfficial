@@ -26,8 +26,6 @@ Check out [Request Timeout](https://github.com/RequestTimeout) for more projects
     src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/output/github-snake.svg"
   />
 </picture>
-
-## Repositories
 <picture>
   <img
     alt="REPOS"
