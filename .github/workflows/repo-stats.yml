@@ -38,6 +38,7 @@ jobs:
 
           HIDDEN_REPOS = {
              "RequestTimeout/.github",
+             "RequestTimeout/discussions"
           }
 
 
