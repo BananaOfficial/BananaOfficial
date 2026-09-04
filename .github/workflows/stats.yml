@@ -1,0 +1,174 @@
+name: Update Profile Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate stats
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python <<'PY'
+          import os
+          import requests
+
+          username = "BananaOfficial"
+
+          headers = {
+              "Accept": "application/vnd.github+json",
+              "Authorization": f"Bearer {os.environ['GH_TOKEN']}"
+          }
+
+          repos = []
+          page = 1
+
+          while True:
+              r = requests.get(
+                  f"https://api.github.com/users/{username}/repos",
+                  headers=headers,
+                  params={
+                      "per_page": 100,
+                      "page": page
+                  }
+              )
+
+              r.raise_for_status()
+              data = r.json()
+
+              if not data:
+                  break
+
+              repos.extend(data)
+              page += 1
+
+          repos = [
+              repo for repo in repos
+              if not repo["fork"]
+          ]
+
+          stars = sum(repo["stargazers_count"] for repo in repos)
+          forks = sum(repo["forks_count"] for repo in repos)
+
+          commits = 0
+          contributors = set()
+          additions = 0
+          deletions = 0
+
+          for repo in repos:
+              owner = repo["owner"]["login"]
+              name = repo["name"]
+
+              r = requests.get(
+                  f"https://api.github.com/repos/{owner}/{name}/stats/contributors",
+                  headers=headers
+              )
+
+              if r.status_code != 200:
+                  continue
+
+              data = r.json()
+
+              if not isinstance(data, list):
+                  continue
+
+              for contributor in data:
+                  author = contributor.get("author")
+
+                  if author:
+                      contributors.add(author["login"])
+
+                  commits += contributor.get("total", 0)
+
+                  for week in contributor.get("weeks", []):
+                      additions += week.get("a", 0)
+                      deletions += week.get("d", 0)
+
+          most_starred = max(
+              repos,
+              key=lambda repo: repo["stargazers_count"],
+              default=None
+          )
+
+          output = f"""## Statistics
+
+          | Statistic | Value |
+          |---|---:|
+          | Repositories | {len(repos)} |
+          | Stars | {stars} |
+          | Forks | {forks} |
+          | Commits | {commits} |
+          | Contributors | {len(contributors)} |
+          | Lines added | {additions:,} |
+          | Lines deleted | {deletions:,} |
+          """
+
+          if most_starred:
+              output += (
+                  f"| Most starred | "
+                  f"[{most_starred['name']}]"
+                  f"(https://github.com/{username}/{most_starred['name']}) "
+                  f"({most_starred['stargazers_count']}) |\n"
+              )
+
+          output += "\n*Automatically updated by GitHub Actions.*\n"
+
+          with open("stats.md", "w", encoding="utf-8") as f:
+              f.write(output)
+          PY
+
+      - name: Update README
+        run: |
+          python <<'PY'
+          from pathlib import Path
+
+          readme = Path("README.md").read_text(encoding="utf-8")
+          stats = Path("stats.md").read_text(encoding="utf-8")
+
+          start = "<!-- STATS:START -->"
+          end = "<!-- STATS:END -->"
+
+          before = readme.split(start)[0]
+          after = readme.split(end)[1]
+
+          new_readme = (
+              before +
+              start +
+              "\n" +
+              stats +
+              "\n" +
+              end +
+              after
+          )
+
+          Path("README.md").write_text(
+              new_readme,
+              encoding="utf-8"
+          )
+          PY
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md stats.md
+
+          git diff --cached --quiet || \
+            git commit -m "Update profile statistics"
+
+          git push
