@@ -1,4 +1,4 @@
-# BananaOfficial
+# <div align="center">BananaOfficial</div>
 GitHub: https://github.com/BananaOfficial
 
 Modrinth: https://modrinth.com/user/BananaOfficial
@@ -11,7 +11,7 @@ Check out [Request Timeout](https://github.com/RequestTimeout) for more projects
 
 ### DISCLAIMER:
 #### some links might not work.
-## Contributions
+## <div align="center">Contributions</div>
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
