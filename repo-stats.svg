@@ -2,8 +2,8 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="1000"
-  height="670"
-  viewBox="0 0 1000 670"
+  height="865"
+  viewBox="0 0 1000 865"
 >
 
   <style>
@@ -126,19 +126,19 @@
             x="54"
             y="102"
             class="title"
-          >BananaOfficial</text>
+          >Jsonify</text>
 
           <text
             x="54"
             y="124"
             class="location"
-          >BananaOfficial</text>
+          >RequestTimeout</text>
 
           <text
             x="54"
             y="152"
             class="description"
-          >No description.</text>
+          >A small way to view JSON files in your web browser. </text>
 
           <line
             x1="54"
@@ -158,7 +158,7 @@
             x="54"
             y="220"
             class="value"
-          >2</text>
+          >1</text>
 
           <text
             x="170"
@@ -318,19 +318,19 @@
             x="54"
             y="297"
             class="title"
-          >localS</text>
+          >BananaOfficial</text>
 
           <text
             x="54"
             y="319"
             class="location"
-          >RequestTimeout</text>
+          >BananaOfficial</text>
 
           <text
             x="54"
             y="347"
             class="description"
-          >A small and simple local HTTP server on you computer</text>
+          >No description.</text>
 
           <line
             x1="54"
@@ -350,7 +350,7 @@
             x="54"
             y="415"
             class="value"
-          >1</text>
+          >2</text>
 
           <text
             x="170"
@@ -414,7 +414,7 @@
             x="534"
             y="297"
             class="title"
-          >CurlS</text>
+          >localS</text>
 
           <text
             x="534"
@@ -426,7 +426,7 @@
             x="534"
             y="347"
             class="description"
-          >A small and simple web HTML downloader.</text>
+          >A small and simple local HTTP server on you computer</text>
 
           <line
             x1="534"
@@ -510,7 +510,7 @@
             x="54"
             y="492"
             class="title"
-          >modID</text>
+          >CurlS</text>
 
           <text
             x="54"
@@ -522,7 +522,7 @@
             x="54"
             y="542"
             class="description"
-          >No description.</text>
+          >A small and simple web HTML downloader.</text>
 
           <line
             x1="54"
@@ -606,13 +606,13 @@
             x="534"
             y="492"
             class="title"
-          >bananaofficial.github.io</text>
+          >modID</text>
 
           <text
             x="534"
             y="514"
             class="location"
-          >BananaOfficial</text>
+          >RequestTimeout</text>
 
           <text
             x="534"
@@ -673,6 +673,102 @@
           <text
             x="840"
             y="610"
+            class="value"
+          >0</text>
+
+        </g>
+        
+        <g>
+
+          <rect
+            x="30"
+            y="655"
+            width="460"
+            height="175"
+            rx="16"
+            class="card"
+          />
+
+          <rect
+            x="30"
+            y="655"
+            width="6"
+            height="175"
+            rx="3"
+            class="accent"
+          />
+
+          <text
+            x="54"
+            y="687"
+            class="title"
+          >bananaofficial.github.io</text>
+
+          <text
+            x="54"
+            y="709"
+            class="location"
+          >BananaOfficial</text>
+
+          <text
+            x="54"
+            y="737"
+            class="description"
+          >No description.</text>
+
+          <line
+            x1="54"
+            y1="755"
+            x2="466"
+            y2="755"
+            class="divider"
+          />
+
+          <text
+            x="54"
+            y="783"
+            class="label"
+          >Contributors</text>
+
+          <text
+            x="54"
+            y="805"
+            class="value"
+          >1</text>
+
+          <text
+            x="170"
+            y="783"
+            class="label"
+          >Stars</text>
+
+          <text
+            x="170"
+            y="805"
+            class="value"
+          >0</text>
+
+          <text
+            x="255"
+            y="783"
+            class="label"
+          >Views</text>
+
+          <text
+            x="255"
+            y="805"
+            class="value"
+          >Unavailable</text>
+
+          <text
+            x="360"
+            y="783"
+            class="label"
+          >Forks</text>
+
+          <text
+            x="360"
+            y="805"
             class="value"
           >0</text>
 
