@@ -32,3 +32,10 @@ Check out [Request Timeout](https://github.com/RequestTimeout) for more projects
     src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/repo-stats.svg"
   />
 </picture>
+## Statistics
+<picture>
+  <img
+    alt="STATS"
+    src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/stats.svg"
+  />
+</picture>
