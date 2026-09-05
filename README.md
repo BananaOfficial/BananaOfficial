@@ -12,20 +12,22 @@ Check out [Request Timeout](https://github.com/RequestTimeout) for more projects
 ### DISCLAIMER:
 #### some links might not work.
 ## <div align="center">Contributions</div>
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/output/github-snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/output/github-snake.svg"
-  />
-  <img
-    alt="GitHub contribution snake"
-    src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/output/github-snake.svg"
-  />
-</picture>
+<div align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/output/github-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/output/github-snake.svg"
+    />
+    <img
+      alt="GitHub contribution snake"
+      src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/output/github-snake.svg"
+    />
+  </picture>
+</div>
 <picture>
   <img
     alt="REPOS"
