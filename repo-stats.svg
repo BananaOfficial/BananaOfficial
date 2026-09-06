@@ -222,19 +222,19 @@
             x="534"
             y="102"
             class="title"
-          >BananaOfficial</text>
+          >localS</text>
 
           <text
             x="534"
             y="124"
             class="location"
-          >BananaOfficial</text>
+          >RequestTimeout</text>
 
           <text
             x="534"
             y="152"
             class="description"
-          >No description.</text>
+          >A small and simple local HTTP server on you computer</text>
 
           <line
             x1="534"
@@ -254,7 +254,7 @@
             x="534"
             y="220"
             class="value"
-          >2</text>
+          >1</text>
 
           <text
             x="650"
@@ -318,19 +318,19 @@
             x="54"
             y="297"
             class="title"
-          >Refs</text>
+          >BananaOfficial</text>
 
           <text
             x="54"
             y="319"
             class="location"
-          >RequestTimeout</text>
+          >BananaOfficial</text>
 
           <text
             x="54"
             y="347"
             class="description"
-          >A small and simple way to search folders for files using re...</text>
+          >No description.</text>
 
           <line
             x1="54"
@@ -350,7 +350,7 @@
             x="54"
             y="415"
             class="value"
-          >1</text>
+          >2</text>
 
           <text
             x="170"
@@ -414,7 +414,7 @@
             x="534"
             y="297"
             class="title"
-          >RegexIt</text>
+          >Refs</text>
 
           <text
             x="534"
@@ -426,7 +426,7 @@
             x="534"
             y="347"
             class="description"
-          >A small GUI regex tester made with Python and PyQt5.</text>
+          >A small and simple way to search folders for files using re...</text>
 
           <line
             x1="534"
@@ -510,7 +510,7 @@
             x="54"
             y="492"
             class="title"
-          >FibF</text>
+          >RegexIt</text>
 
           <text
             x="54"
@@ -522,7 +522,7 @@
             x="54"
             y="542"
             class="description"
-          >Fibonacci, but faster.</text>
+          >A small GUI regex tester made with Python and PyQt5.</text>
 
           <line
             x1="54"
@@ -606,7 +606,7 @@
             x="534"
             y="492"
             class="title"
-          >Jsonify</text>
+          >FibF</text>
 
           <text
             x="534"
@@ -618,7 +618,7 @@
             x="534"
             y="542"
             class="description"
-          >A small way to view JSON files in your web browser. </text>
+          >Fibonacci, but faster.</text>
 
           <line
             x1="534"
@@ -702,7 +702,7 @@
             x="54"
             y="687"
             class="title"
-          >RandG</text>
+          >Jsonify</text>
 
           <text
             x="54"
@@ -714,7 +714,7 @@
             x="54"
             y="737"
             class="description"
-          >A small all in one UUID, password, and number generator.</text>
+          >A small way to view JSON files in your web browser. </text>
 
           <line
             x1="54"
@@ -798,7 +798,7 @@
             x="534"
             y="687"
             class="title"
-          >localS</text>
+          >RandG</text>
 
           <text
             x="534"
@@ -810,7 +810,7 @@
             x="534"
             y="737"
             class="description"
-          >A small and simple local HTTP server on you computer</text>
+          >A small all in one UUID, password, and number generator.</text>
 
           <line
             x1="534"
