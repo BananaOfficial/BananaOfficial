@@ -49,13 +49,13 @@ Check out [Request Timeout](https://github.com/RequestTimeout) for more projects
   <a href="mailto:bananaofficial.support@gmail.com">
     <img
       alt="Email"
-      src="https://img.shields.io/badge/Email-00A315?style=for-the-badge&logo=gmail&logoColor=white"
+      src="https://img.shields.io/badge/Email-001110?style=for-the-badge&logo=gmail&logoColor=FC423E"
     />
   </a>
   <a href="https://t.me/+aFVApm-_xFtlYmE0">
     <img
       alt="Telegram"
-      src="https://img.shields.io/badge/Telegram-00A315?style=for-the-badge&logo=telegram&logoColor=white"
+      src="https://img.shields.io/badge/Telegram-001110?style=for-the-badge&logo=telegram&logoColor=2299D4"
     />
   </a>
 </div>
