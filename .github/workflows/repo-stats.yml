@@ -473,7 +473,7 @@ jobs:
                 fill: #f0f6fc;
                 font-family: Arial, sans-serif;
                 font-size: 20px;
-                font-weight: 800;
+                font-weight: 900;
                 text-anchor: middle;
               }}
 
@@ -481,7 +481,7 @@ jobs:
                 fill: #8b949e;
                 font-family: Arial, sans-serif;
                 font-size: 12px;
-                font-weight: 600;
+                font-weight: 800;
                 text-anchor: middle;
               }}
 
