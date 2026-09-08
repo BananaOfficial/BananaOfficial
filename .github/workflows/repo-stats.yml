@@ -474,12 +474,14 @@ jobs:
                 font-family: Arial, sans-serif;
                 font-size: 20px;
                 font-weight: bold;
+                text-align: center;
               }}
 
               .subtitle {{
                 fill: #8b949e;
                 font-family: Arial, sans-serif;
                 font-size: 12px;
+                text-align: center;
               }}
 
             </style>
