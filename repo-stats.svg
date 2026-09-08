@@ -64,14 +64,14 @@
       font-family: Arial, sans-serif;
       font-size: 20px;
       font-weight: bold;
-      text-anchor: middle;
+      text-anchor: right;
     }
 
     .subtitle {
       fill: #8b949e;
       font-family: Arial, sans-serif;
       font-size: 12px;
-      text-anchor: middle;
+      text-anchor: right;
     }
 
   </style>
