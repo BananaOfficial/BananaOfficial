@@ -1,6 +1,6 @@
 # <div align="center">BananaOfficial</div>
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&height=28&width=600&duration=2500&pause=1000&color=00A315&center=true&vCenter=true&width=600&height=32&lines=Hi%2C+i'm+BananaOfficial+A+python+and+java+developer.;I+enjoy+messing+around+with+Regex.;and+i'm+probably+making+something+right+now." alt=" "/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&height=28&width=600&duration=2500&pause=1000&color=00A315&center=true&vCenter=true&width=600&height=32&lines=Hi%2C+i'm+BananaOfficial+A+python+and+java+developer.;I+enjoy+messing+around+with+Regex.;And+i'm+probably+making+something+right+now." alt=" "/>
 </div>
 
 GitHub: https://github.com/BananaOfficial
