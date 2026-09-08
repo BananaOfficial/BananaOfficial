@@ -7,8 +7,6 @@ GitHub: https://github.com/BananaOfficial
 
 Modrinth: https://modrinth.com/user/BananaOfficial
 
-Found a bug? [Email me here](mailto:bananaofficial.support@gmail.com)
-
 Want more info? [Click here](https://bananaofficial.github.io)
 
 Check out [Request Timeout](https://github.com/RequestTimeout) for more projects.
