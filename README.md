@@ -1,4 +1,8 @@
 # <div align="center">BananaOfficial</div>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&height=28&width=600&duration=2500&pause=1000&color=00A315&center=true&vCenter=true&width=600&height=32&lines=Hi%2C+i'm+BananaOfficial+A+python+and+java+developer.;I+enjoy+messing+around+with+Regex.;and+i'm+probably+making+something+right+now." alt=" "/>
+</div>
+
 GitHub: https://github.com/BananaOfficial
 
 Modrinth: https://modrinth.com/user/BananaOfficial
@@ -28,12 +32,6 @@ Check out [Request Timeout](https://github.com/RequestTimeout) for more projects
     />
   </picture>
 </div>
-<picture>
-  <img
-    alt="REPOS"
-    src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/repo-stats.svg"
-  />
-</picture>
 
 ## <div align="center">Skill stack</div>
 <div align="center">
@@ -53,8 +51,20 @@ Check out [Request Timeout](https://github.com/RequestTimeout) for more projects
 ## <div align="center">Other</div>
 <div align="center">
   <picture>
-    <img src="https://github-readme-stats.vercel.app/api?username=BananaOfficial&show_icons=true&theme=tokyonight&rank_icon=github" width="47.5%"/>
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=BananaOfficial&theme=tokyonight" width="47.5%"/>
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=BananaOfficial&theme=react-dark&bg_color=0D1117&hide_border=true"/>
+    <img
+      src="https://github-readme-stats.vercel.app/api?username=BananaOfficial&show_icons=true&theme=tokyonight&rank_icon=github"
+      width="47.5%"/>
+    <img
+      src="https://github-readme-streak-stats.herokuapp.com?user=BananaOfficial&theme=tokyonight"
+      width="47.5%"/>
+    <img
+      src="https://github-readme-activity-graph.vercel.app/graph?username=BananaOfficial&theme=react-dark&bg_color=0D1117&hide_border=true"/>
   </picture>
 </div>
+
+<picture>
+  <img
+    alt="REPOS"
+    src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/repo-stats.svg"
+  />
+</picture>
