@@ -45,6 +45,20 @@ Check out [Request Timeout](https://github.com/RequestTimeout) for more projects
 </div>
 
 ## <div align="center">Contact</div>
+<div align="center">
+  <a href="mailto:bananaofficial.support@gmail.com">
+    <img
+      alt="Email"
+      src="https://img.shields.io/badge/Email-00A315?style=for-the-badge&logo=gmail&logoColor=white"
+    />
+  </a>
+  <a href="https://t.me/+aFVApm-_xFtlYmE0">
+    <img
+      alt="Telegram"
+      src="https://img.shields.io/badge/Telegram-00A315?style=for-the-badge&logo=telegram&logoColor=white"
+    />
+  </a>
+</div>
 
 ## <div align="center">Other</div>
 <div align="center">
