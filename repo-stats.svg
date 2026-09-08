@@ -86,7 +86,7 @@
 
 
   <text
-    x="30"
+    x="50%"
     y="32"
     class="header"
   >
@@ -95,7 +95,7 @@
 
 
   <text
-    x="30"
+    x="50%"
     y="52"
     class="subtitle"
   >
