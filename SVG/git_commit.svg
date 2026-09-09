@@ -1,0 +1,38 @@
+<svg
+  width="176"
+  height="22"
+  viewBox="0 0 176 22"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <rect
+    width="176"
+    height="22"
+    rx="4"
+    fill="#0D1117"
+  />
+
+  <text
+    x="7"
+    y="15.5"
+    fill="#F0F6FC"
+    font-family="'JetBrains Mono', monospace"
+    font-size="11"
+    font-weight="500"
+  >&gt; git commit</text>
+
+  <text
+    x="91"
+    y="15.5"
+    fill="#F0F6FC"
+    font-family="'JetBrains Mono', monospace"
+    font-size="11"
+    font-weight="900"
+  >_
+    <animate
+      attributeName="visibility"
+      values="visible;hidden;visible"
+      dur="1s"
+      repeatCount="indefinite"
+    />
+  </text>
+</svg>
