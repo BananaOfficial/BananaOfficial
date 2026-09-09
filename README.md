@@ -90,7 +90,7 @@ Have a ***cool idea***?
 
 Want to ***improve something***?
 
-Feel Free to email me or message me on telegram.
+Feel free to email me or message me on telegram.
 
 > ***If it makes a project better, I'm interested.***
 ## <div align="center">Other</div>
