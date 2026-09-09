@@ -25,13 +25,13 @@
     y="15.5"
     fill="#F0F6FC"
     font-family="'JetBrains Mono', monospace"
-    font-size="11"
+    font-size="22"
     font-weight="900"
   >_
     <animate
       attributeName="visibility"
       values="visible;hidden;visible"
-      dur="1s"
+      dur="0.5s"
       repeatCount="indefinite"
     />
   </text>
