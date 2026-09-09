@@ -11,7 +11,7 @@ Modrinth: https://modrinth.com/user/BananaOfficial
 
 Want more info? [Click here](https://bananaofficial.github.io)
 
-Check out [Request Timeout](https://github.com/RequestTimeout) for more projects.
+Check out <a href="https://github.com/RequestTimeout">Request Timeout</a> for more projects.
 
 ### DISCLAIMER:
 #### some links might not work.
@@ -52,7 +52,15 @@ Check out [Request Timeout](https://github.com/RequestTimeout) for more projects
   </picture>
 </div>
 
-## <div align="center">Contact</div>
+## <div align="center">About Me
+* I'm BananaOfficial, a Python & Java developer.  
+* I mess around with Python, Java, Qt, and Regex.  
+* I make random ideas into actual software.  
+* If there's a weird technical problem, I'll probably try to solve it.  
+* Owner of RequestTimeout.
+</div>
+
+### <div align="center">Contact</div>
 <div align="center">
   <a href="mailto:bananaofficial.support@gmail.com">
     <picture>
