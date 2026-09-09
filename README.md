@@ -47,6 +47,14 @@ Check out <a href="https://github.com/RequestTimeout"><img align="absbottom" src
       alt=""
       src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/fabricAPI-icon.svg"
     />
+    <img
+      alt=""
+      src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/JAR-icon.svg"
+    />
+    <img
+      alt=""
+      src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/JSON-icon.svg"
+    />
   </picture>
 </div>
 <div align="left"><picture><img alt="" src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/gitCommit.svg"/></picture></div>
