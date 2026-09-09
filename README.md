@@ -40,16 +40,12 @@ Check out <a href="https://github.com/RequestTimeout"><img align="absbottom" src
   <picture>
     <img
       alt=""
-      src="https://skillicons.dev/icons?i=python,java,html,css,js,qt,svg,github"
+      src="https://skillicons.dev/icons?i=python,java,html,css,md,js,qt,svg,github,pycharm,regex,git"
     />
     <br><br>
     <img
       alt=""
-      src="https://skillicons.dev/icons?i=pycharm,regex,git"
-    />
-    <img
-      alt=""
-      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/batch/batch-original.svg"
+      src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/fabricAPI.svg"
     />
   </picture>
 </div>
