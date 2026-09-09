@@ -45,6 +45,10 @@ Check out [Request Timeout](https://github.com/RequestTimeout) for more projects
       alt=""
       src="https://skillicons.dev/icons?i=pycharm,regex,git"
     />
+    <img
+      alt=""
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/batch/batch-original.svg"
+    />
   </picture>
 </div>
 
@@ -71,17 +75,10 @@ Check out [Request Timeout](https://github.com/RequestTimeout) for more projects
 ## <div align="center">Other</div>
 <div align="center">
   <picture>
-    <!-- <img
-      src="https://github-readme-stats.vercel.app/api?username=BananaOfficial&show_icons=true&theme=tokyonight&rank_icon=github"
-      width="47.5%"
-    /> -->
     <img
       src="https://github-readme-streak-stats.herokuapp.com?user=BananaOfficial&theme=tokyonight"
       width="47.5%"
     />
-    <!-- <img
-      src="https://github-readme-activity-graph.vercel.app/graph?username=BananaOfficial&theme=react-dark&bg_color=0D1117&hide_border=true"
-    /> -->
   </picture>
 </div>
 
