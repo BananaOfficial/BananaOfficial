@@ -4,7 +4,7 @@
   viewBox="0 0 220 220"
   xmlns="http://www.w3.org/2000/svg"
 >
-  <rect width="22" height="22" fill="#0D1117"/>
+  <rect width="220" height="220" fill="#0D1117"/>
 
   <defs>
     <g id="star">
