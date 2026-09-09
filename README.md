@@ -40,7 +40,7 @@ Check out <a href="https://github.com/RequestTimeout">Request Timeout</a> for mo
   <picture>
     <img
       alt=""
-      src="https://skillicons.dev/icons?i=python,java,html,css,js,qt,github"
+      src="https://skillicons.dev/icons?i=python,java,html,css,js,qt,svg,github"
     />
     <br><br>
     <img
@@ -60,6 +60,7 @@ Check out <a href="https://github.com/RequestTimeout">Request Timeout</a> for mo
 <p align="center">I make random ideas into actual software.</p>
 <p align="center">If there's a weird technical problem, I'll probably try to solve it.</p>
 <p align="center">Owner of RequestTimeout.</p>
+<div align="center"><picture><img alt="" src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/circle.svg"/></picture></div>
 
 ---
 <div align="center">
@@ -108,8 +109,3 @@ Feel Free to email me or message me on telegram.
     src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/repo-stats.svg"
   />
 </picture>
-
-<img
-  alt=""
-  src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVGs/test.svg"
-/>
