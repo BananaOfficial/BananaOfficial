@@ -31,7 +31,7 @@
     <animate
       attributeName="visibility"
       values="visible;hidden;visible"
-      dur="0.75s"
+      dur="0.87s"
       repeatCount="indefinite"
     />
   </text>
