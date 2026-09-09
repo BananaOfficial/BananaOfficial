@@ -12,20 +12,20 @@
   />
 
   <text
-    x="7"
+    x="5"
     y="15.5"
     fill="#F0F6FC"
     font-family="'JetBrains Mono', monospace"
-    font-size="22"
+    font-size="17"
     font-weight="500"
   >&gt; git commit</text>
 
   <text
-    x="91"
+    x="120"
     y="15.5"
     fill="#F0F6FC"
     font-family="'JetBrains Mono', monospace"
-    font-size="22"
+    font-size="17"
     font-weight="900"
   >_
     <animate
