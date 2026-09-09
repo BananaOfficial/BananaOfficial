@@ -45,7 +45,7 @@ Check out <a href="https://github.com/RequestTimeout"><img align="absbottom" src
     <br><br>
     <img
       alt=""
-      src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/fabricAPI.svg"
+      src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/fabricAPI-icon.svg"
     />
   </picture>
 </div>
