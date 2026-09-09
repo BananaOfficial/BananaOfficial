@@ -6,7 +6,7 @@
     </g>
   </defs>
   <g transform="translate(22 22)">
-    <g> <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite" />
+    <g> <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1s" repeatCount="indefinite" />
       <use href="#star" transform="translate(0 -11)"/>
       <use href="#star" transform="rotate(30) translate(0 -11)"/>
       <use href="#star" transform="rotate(60) translate(0 -11)"/>
@@ -15,6 +15,8 @@
       <use href="#star" transform="rotate(150) translate(0 -11)"/>
       <use href="#star" transform="rotate(180) translate(0 -11)"/>
       <use href="#star" transform="rotate(210) translate(0 -11)"/>
+      <use href="#star" transform="rotate(240) translate(0, -11)"/>
+      <use href="#star" transform="rotate(270) translate(0, -11)"/>
     </g>
   </g>
 </svg>
