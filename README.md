@@ -53,6 +53,7 @@ Check out <a href="https://github.com/RequestTimeout">Request Timeout</a> for mo
     />
   </picture>
 </div>
+<div align="left"><picture><img alt="" src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/git_commit.svg"/></picture></div>
 
 ## <div align="center">About Me</div>
 <p align="center">I'm BananaOfficial, a Python & Java developer.</p>
