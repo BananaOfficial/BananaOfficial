@@ -5,16 +5,17 @@
   </picture>
 </div>
 
+---
 GitHub: https://github.com/BananaOfficial
 
 Modrinth: https://modrinth.com/user/BananaOfficial
 
-Want more info? [Click here](https://bananaofficial.github.io)
+Want more info? <a href="https://bananaofficial.github.io"> Click here </a>
 
 Check out <a href="https://github.com/RequestTimeout">Request Timeout</a> for more projects.
 
-### DISCLAIMER:
-#### some links might not work.
+> DISCLAIMER:
+> some links might not work.
 ## <div align="center">Contributions</div>
 <div align="center">
   <picture>
@@ -33,6 +34,7 @@ Check out <a href="https://github.com/RequestTimeout">Request Timeout</a> for mo
   </picture>
 </div>
 
+---
 ## <div align="center">Skill stack</div>
 <div align="center">
   <picture>
@@ -58,6 +60,8 @@ Check out <a href="https://github.com/RequestTimeout">Request Timeout</a> for mo
 <p align="center">I make random ideas into actual software.</p>
 <p align="center">If there's a weird technical problem, I'll probably try to solve it.</p>
 <p align="center">Owner of RequestTimeout.</p>
+
+---
 <div align="center">
   <a href="mailto:bananaofficial.support@gmail.com">
     <picture>
@@ -77,6 +81,16 @@ Check out <a href="https://github.com/RequestTimeout">Request Timeout</a> for mo
   </a>
 </div>
 
+## <div align="center">Contributing</div>
+Found something **broken**?
+
+Have a ***cool idea***?
+
+Want to ***improve something***?
+
+Feel Free to email me or message me on telegram.
+
+> ***If it makes a project better, I'm interested.***
 ## <div align="center">Other</div>
 <div align="center">
   <picture>
@@ -87,6 +101,7 @@ Check out <a href="https://github.com/RequestTimeout">Request Timeout</a> for mo
   </picture>
 </div>
 
+---
 <picture>
   <img
     alt="REPOS"
