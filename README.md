@@ -108,3 +108,8 @@ Feel Free to email me or message me on telegram.
     src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/repo-stats.svg"
   />
 </picture>
+
+<img
+  alt=""
+  src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVGs/test.svg"
+/>
