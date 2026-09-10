@@ -1,8 +1,8 @@
 
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="660"
+     width="720"
      height="103"
-     viewBox="0 0 660 103">
+     viewBox="0 0 720 103">
 
   <style>
     text {
@@ -31,11 +31,11 @@
     Username
   </text>
 
-  <text x="346" y="29" font-size="15" class="header">
+  <text x="376" y="29" font-size="15" class="header">
     Profile Picture
   </text>
 
-  <text x="500" y="29" font-size="15" class="header">
+  <text x="530" y="29" font-size="15" class="header">
     Username
   </text>
 
@@ -43,39 +43,8 @@
   <line
     x1="0"
     y1="45"
-    x2="660"
+    x2="720"
     y2="45"
     class="grid"
   />
-
-    <line
-      x1="0"
-      y1="103"
-      x2="330"
-      y2="103"
-      class="grid"
-    />
-  
-    <image
-      href="https://avatars.githubusercontent.com/u/318219474?v=4"
-      x="12"
-      y="58"
-      width="32"
-      height="32"
-      preserveAspectRatio="xMidYMid slice"
-    />
-  
-    <text
-      x="60"
-      y="79"
-      font-size="15"
-    >BananaOfficial</text>
-  
-    <line
-      x1="330"
-      y1="103"
-      x2="660"
-      y2="103"
-      class="grid"
-    />
-  </svg>
+</svg>
