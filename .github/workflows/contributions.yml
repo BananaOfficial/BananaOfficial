@@ -1,0 +1,235 @@
+name: Generate Contributions
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate contributions.svg
+        uses: actions/github-script@v7
+        env:
+          IGNORE_USERS: "BananaOfficial,github-actions[bot]"
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require("fs");
+
+            const org = "RequestTimeout";
+
+            const ignored = new Set(
+              process.env.IGNORE_USERS
+                .split(",")
+                .map(x => x.trim().toLowerCase())
+                .filter(Boolean)
+            );
+
+            const users = new Map();
+
+            // Get organization members
+            for await (const response of github.paginate.iterator(
+              github.rest.orgs.listMembers,
+              {
+                org,
+                per_page: 100
+              }
+            )) {
+              for (const member of response.data) {
+                if (!ignored.has(member.login.toLowerCase())) {
+                  users.set(member.login, member);
+                }
+              }
+            }
+
+            // Get contributors from every repository
+            const repos = await github.paginate(
+              github.rest.repos.listForOrg,
+              {
+                org,
+                per_page: 100
+              }
+            );
+
+            for (const repo of repos) {
+              for await (const response of github.paginate.iterator(
+                github.rest.repos.listContributors,
+                {
+                  owner: org,
+                  repo: repo.name,
+                  per_page: 100,
+                  anon: false
+                }
+              )) {
+                for (const contributor of response.data) {
+                  if (
+                    contributor.login &&
+                    !ignored.has(contributor.login.toLowerCase())
+                  ) {
+                    users.set(contributor.login, contributor);
+                  }
+                }
+              }
+            }
+
+            const contributors = [...users.values()]
+              .sort((a, b) => a.login.localeCompare(b.login));
+
+            const cellWidth = 330;
+            const rowHeight = 58;
+            const headerHeight = 45;
+
+            const rows = Math.max(1, Math.ceil(contributors.length / 2));
+            const width = cellWidth * 2;
+            const height = headerHeight + rows * rowHeight;
+
+            const escapeXml = (text) =>
+              String(text)
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&apos;");
+
+            let svg = `
+            <svg xmlns="http://www.w3.org/2000/svg"
+                 width="${width}"
+                 height="${height}"
+                 viewBox="0 0 ${width} ${height}">
+
+              <style>
+                text {
+                  font-family: Arial, sans-serif;
+                  fill: #ffffff;
+                }
+
+                .header {
+                  font-weight: bold;
+                }
+
+                .grid {
+                  stroke: #30363d;
+                  stroke-width: 1;
+                }
+              </style>
+
+              <rect width="100%" height="100%" fill="#0d1117"/>
+
+              <!-- Top header -->
+              <text x="16" y="29" font-size="15" class="header">
+                Profile picture
+              </text>
+
+              <text x="170" y="29" font-size="15" class="header">
+                Username
+              </text>
+
+              <text x="${cellWidth + 16}" y="29" font-size="15" class="header">
+                Profile Picture
+              </text>
+
+              <text x="${cellWidth + 170}" y="29" font-size="15" class="header">
+                Username
+              </text>
+
+              <!-- Header separator -->
+              <line
+                x1="0"
+                y1="${headerHeight}"
+                x2="${width}"
+                y2="${headerHeight}"
+                class="grid"
+              />
+
+              <!-- Middle separator -->
+              <line
+                x1="${cellWidth}"
+                y1="0"
+                x2="${cellWidth}"
+                y2="${height}"
+                class="grid"
+              />
+            `;
+
+            contributors.forEach((user, index) => {
+              const column = index % 2;
+              const row = Math.floor(index / 2);
+
+              const x = column * cellWidth;
+              const y = headerHeight + row * rowHeight;
+
+              // Row separator
+              svg += `
+                <line
+                  x1="${x}"
+                  y1="${y + rowHeight}"
+                  x2="${x + cellWidth}"
+                  y2="${y + rowHeight}"
+                  class="grid"
+                />
+              `;
+
+              // 32x32 profile picture
+              svg += `
+                <image
+                  href="${escapeXml(user.avatar_url)}"
+                  x="${x + 12}"
+                  y="${y + 13}"
+                  width="32"
+                  height="32"
+                  preserveAspectRatio="xMidYMid slice"
+                />
+              `;
+
+              // Username
+              svg += `
+                <text
+                  x="${x + 60}"
+                  y="${y + 34}"
+                  font-size="15"
+                >${escapeXml(user.login)}</text>
+              `;
+            });
+
+            // Empty second cell when there is an odd number of users
+            if (contributors.length % 2 !== 0) {
+              const row = Math.floor(contributors.length / 2);
+              const y = headerHeight + row * rowHeight;
+
+              svg += `
+                <line
+                  x1="${cellWidth}"
+                  y1="${y + rowHeight}"
+                  x2="${width}"
+                  y2="${y + rowHeight}"
+                  class="grid"
+                />
+              `;
+            }
+
+            svg += `</svg>`;
+
+            fs.writeFileSync("contributions.svg", svg);
+
+      - name: Commit contributions.svg
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add contributions.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update contributions.svg"
+            git push
+          fi
