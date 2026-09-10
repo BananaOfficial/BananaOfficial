@@ -19,7 +19,7 @@ jobs:
       - name: Generate contributions.svg
         uses: actions/github-script@v7
         env:
-          IGNORE_USERS: "BananaOfficial,github-actions[bot]"
+          IGNORE_USERS: "github-actions[bot]"
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
