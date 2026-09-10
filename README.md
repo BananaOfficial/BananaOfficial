@@ -96,7 +96,9 @@ Want to ***improve something***?
 
 Feel free to email me or message me on telegram.
 
-> ***If it makes a project better, I'm interested.***
+> *If it makes a project better, I'm interested.*
+
+***If you contribute to a project or join RequestTimeout, your profile picture and username will appear in the section below. This process can take up to 5 minutes.***
 ## <div align="center">Other</div>
 <div align="center">
   <picture>
