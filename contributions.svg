@@ -56,4 +56,35 @@
     y2="103"
     class="grid"
   />
-</svg>
+
+    <line
+      x1="0"
+      y1="103"
+      x2="330"
+      y2="103"
+      class="grid"
+    />
+  
+    <image
+      href="https://avatars.githubusercontent.com/u/318219474?v=4"
+      x="12"
+      y="58"
+      width="32"
+      height="32"
+      preserveAspectRatio="xMidYMid slice"
+    />
+  
+    <text
+      x="60"
+      y="79"
+      font-size="15"
+    >BananaOfficial</text>
+  
+    <line
+      x1="330"
+      y1="103"
+      x2="660"
+      y2="103"
+      class="grid"
+    />
+  </svg>
