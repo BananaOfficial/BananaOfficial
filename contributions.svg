@@ -48,15 +48,6 @@
     class="grid"
   />
 
-  <!-- Middle separator -->
-  <line
-    x1="330"
-    y1="0"
-    x2="330"
-    y2="103"
-    class="grid"
-  />
-
     <line
       x1="0"
       y1="103"
