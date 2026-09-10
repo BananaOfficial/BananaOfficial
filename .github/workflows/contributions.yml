@@ -24,18 +24,19 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require("fs");
-      
+
             const org = "RequestTimeout";
-      
+
             const ignored = new Set(
               process.env.IGNORE_USERS
                 .split(",")
                 .map(x => x.trim().toLowerCase())
                 .filter(Boolean)
             );
-      
+
             const users = new Set();
-      
+
+            // Organization members
             for await (const response of github.paginate.iterator(
               github.rest.orgs.listMembers,
               {
@@ -49,7 +50,8 @@ jobs:
                 }
               }
             }
-      
+
+            // Repository contributors
             const repos = await github.paginate(
               github.rest.repos.listForOrg,
               {
@@ -57,7 +59,7 @@ jobs:
                 per_page: 100
               }
             );
-      
+
             for (const repo of repos) {
               for await (const response of github.paginate.iterator(
                 github.rest.repos.listContributors,
@@ -78,18 +80,23 @@ jobs:
                 }
               }
             }
-      
+
             const contributors = [...users]
               .sort((a, b) => a.localeCompare(b));
-      
-            const columnWidth = 360;
-            const rowHeight = 58;
+
+            const columns = 4;
+            const columnWidth = 180;
+            const rowHeight = 40;
             const headerHeight = 45;
-      
-            const rows = Math.max(1, Math.ceil(contributors.length / 2));
-            const width = columnWidth * 2;
+
+            const rows = Math.max(
+              1,
+              Math.ceil(contributors.length / columns)
+            );
+
+            const width = columns * columnWidth;
             const height = headerHeight + rows * rowHeight;
-      
+
             const escapeXml = text =>
               String(text)
                 .replace(/&/g, "&amp;")
@@ -97,47 +104,50 @@ jobs:
                 .replace(/>/g, "&gt;")
                 .replace(/"/g, "&quot;")
                 .replace(/'/g, "&apos;");
-      
+
             let svg = `
             <svg xmlns="http://www.w3.org/2000/svg"
                  width="${width}"
                  height="${height}"
                  viewBox="0 0 ${width} ${height}">
-      
+
               <style>
                 text {
                   font-family: Arial, sans-serif;
                   fill: #ffffff;
                 }
-      
+
                 .header {
                   font-weight: bold;
                 }
-      
+
                 .grid {
                   stroke: #30363d;
                   stroke-width: 1;
                 }
               </style>
-      
+
               <rect width="100%" height="100%" fill="#0d1117"/>
-      
+
               <text x="16" y="29" font-size="15" class="header">
-                Profile picture
-              </text>
-      
-              <text x="170" y="29" font-size="15" class="header">
                 Username
               </text>
-      
-              <text x="${columnWidth + 16}" y="29" font-size="15" class="header">
-                Profile Picture
-              </text>
-      
-              <text x="${columnWidth + 170}" y="29" font-size="15" class="header">
+
+              <text x="${columnWidth + 16}" y="29"
+                    font-size="15" class="header">
                 Username
               </text>
-      
+
+              <text x="${columnWidth * 2 + 16}" y="29"
+                    font-size="15" class="header">
+                Username
+              </text>
+
+              <text x="${columnWidth * 3 + 16}" y="29"
+                    font-size="15" class="header">
+                Username
+              </text>
+
               <line
                 x1="0"
                 y1="${headerHeight}"
@@ -146,14 +156,14 @@ jobs:
                 class="grid"
               />
             `;
-      
+
             contributors.forEach((username, index) => {
-              const column = index % 2;
-              const row = Math.floor(index / 2);
-      
+              const column = index % columns;
+              const row = Math.floor(index / columns);
+
               const x = column * columnWidth;
               const y = headerHeight + row * rowHeight;
-      
+
               svg += `
                 <line
                   x1="${x}"
@@ -162,29 +172,17 @@ jobs:
                   y2="${y + rowHeight}"
                   class="grid"
                 />
-              `;
-      
-              svg += `
-                <img
-                  href="https://github.com/${encodeURIComponent(username)}.png"
-                  x="${x + 12}"
-                  y="${y + 13}"
-                  width="32"
-                  height="32"
-                />
-              `;
-      
-              svg += `
+
                 <text
-                  x="${x + 60}"
-                  y="${y + 34}"
-                  font-size="15"
+                  x="${x + 16}"
+                  y="${y + 26}"
+                  font-size="14"
                 >${escapeXml(username)}</text>
               `;
             });
-      
+
             svg += `</svg>`;
-      
+
             fs.writeFileSync("contributions.svg", svg);
 
       - name: Commit contributions.svg
