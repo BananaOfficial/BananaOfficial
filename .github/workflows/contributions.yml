@@ -149,15 +149,6 @@ jobs:
                 y2="${headerHeight}"
                 class="grid"
               />
-
-              <!-- Middle separator -->
-              <line
-                x1="${cellWidth}"
-                y1="0"
-                x2="${cellWidth}"
-                y2="${height}"
-                class="grid"
-              />
             `;
 
             contributors.forEach((user, index) => {
