@@ -2,7 +2,7 @@ name: Generate Repository Statistics
 
 on:
   schedule:
-    - cron: "0 */0.5 * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
   push:
     branches:
