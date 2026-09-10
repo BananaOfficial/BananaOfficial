@@ -22,7 +22,6 @@
 
   <rect width="100%" height="100%" fill="#0d1117"/>
 
-  <!-- Top header -->
   <text x="16" y="29" font-size="15" class="header">
     Profile picture
   </text>
@@ -39,7 +38,6 @@
     Username
   </text>
 
-  <!-- Header separator -->
   <line
     x1="0"
     y1="45"
@@ -56,7 +54,7 @@
       class="grid"
     />
   
-    <image
+    <img
       href="https://github.com/BananaOfficial.png"
       x="12"
       y="58"
