@@ -36,7 +36,6 @@ jobs:
 
             const users = new Set();
 
-            // Organization members
             for await (const response of github.paginate.iterator(
               github.rest.orgs.listMembers,
               {
@@ -51,7 +50,6 @@ jobs:
               }
             }
 
-            // Repository contributors
             const repos = await github.paginate(
               github.rest.repos.listForOrg,
               {
