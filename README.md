@@ -101,7 +101,7 @@ Feel free to email me or message me on telegram.
 ***If you contribute to a project or join RequestTimeout, your profile picture and username will appear in the section below. This process can take up to 5 minutes.***
 
 ---
-## <div align="center">The Wall of Contributors</div>
+## <div align="center">The Wall Of Contributors</div>
 <div align="center">
   <picture>
     <img
