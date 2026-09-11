@@ -111,15 +111,19 @@ Feel free to email me or message me on telegram.
 </div>
 
 ## <div align="center">Other</div>
-<div align="center">
-  <picture>
+<div>
+  <picture align="left">
     <img
-      src="https://github-readme-streak-stats.herokuapp.com?user=BananaOfficial&theme=tokyonight"
-      width="47.5%"
-    />
-    <img
+      width="33.33333333333333%"
+      height="33.33333333333333%"
       alt=""
       src="https://cdn.bananaofficial.workers.dev/api/action-stats/?user=BananaOfficial"
+    />
+  </picture>
+  <picture align="center">
+    <img
+      src="https://github-readme-streak-stats.herokuapp.com?user=BananaOfficial&theme=tokyonight"
+      width="33.33333333333333%"
     />
   </picture>
 </div>
