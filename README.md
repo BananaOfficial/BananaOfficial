@@ -117,9 +117,9 @@ Feel free to email me or message me on telegram.
       src="https://github-readme-streak-stats.herokuapp.com?user=BananaOfficial&theme=tokyonight"
       width="47.5%"
     />
-    <img
+    <!-- <img -->
       <!-- src="https://cdn.bananaofficial.workers.dev/api/action-stats/?user=BananaOfficial" -->
-    />
+    <!-- /> -->
   </picture>
 </div>
 
