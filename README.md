@@ -15,7 +15,7 @@ Want more info? <a href="https://bananaofficial.github.io"> Click here </a>
 Check out <a href="https://github.com/RequestTimeout"><img align="absbottom" src="https://github.com/RequestTimeout.png" width="22" height="22" alt=""> Request Timeout</a> for more projects.
 
 > DISCLAIMER:
-> some links might not work.
+> some links might not work depending on your app settings.
 ## <div align="center">Contributions</div>
 <div align="center">
   <picture>
@@ -98,7 +98,7 @@ Feel free to email me or message me on telegram.
 
 > *If it makes a project better, I'm interested.*
 
-***If you contribute to a project or join RequestTimeout, your profile picture and username will appear in the section below. This process can take up to 5 minutes.***
+***If you contribute to a project or join RequestTimeout, your username will appear in the section below. This process can take up to 5 minutes.***
 
 ---
 ## <div align="center">The Wall Of Contributors</div>
@@ -116,6 +116,9 @@ Feel free to email me or message me on telegram.
     <img
       src="https://github-readme-streak-stats.herokuapp.com?user=BananaOfficial&theme=tokyonight"
       width="47.5%"
+    />
+    <img
+      <!-- src="https://cdn.bananaofficial.workers.dev/api/action-stats/?user=BananaOfficial" -->
     />
   </picture>
 </div>
