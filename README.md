@@ -12,7 +12,8 @@ Modrinth: https://modrinth.com/user/BananaOfficial
 
 Want more info? <a href="https://bananaofficial.github.io"> Click here </a>
 
-Check out <a href="https://github.com/RequestTimeout"><img align="absbottom" src="https://github.com/RequestTimeout.png" width="22" height="22" alt=""> Request Timeout</a> for more projects.
+Check out <a href="https://github.com/RequestTimeout"><img align="absbottom" src="https://github.com/RequestTimeout.png" width="22" height="22" alt=""/>
+Request Timeout</a> for more projects.
 
 > DISCLAIMER:
 > some links might not work depending on your app settings.
