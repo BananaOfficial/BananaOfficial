@@ -129,8 +129,8 @@ Feel free to email me or message me on telegram.
   </picture>
   <picture align="right">
     <img
-      src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/other.svg#gear-icon"
-      width="33.33333333333333%"
+      src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/gear.svg"
+      width="3.33333333333333%"
     />
   </picture>
 </div>
