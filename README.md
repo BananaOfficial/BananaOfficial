@@ -1,4 +1,4 @@
-# <div align="center" id="top">BananaOfficial</div>
+# <div align="center">BananaOfficial</div>
 <div align="center">
   <picture>
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&height=28&width=600&duration=2500&pause=1000&color=00A315&center=true&vCenter=true&width=700&height=32&lines=Hi%2C+i'm+BananaOfficial+A+python+and+java+developer.;I+enjoy+messing+around+with+Regex.;And+i'm+probably+making+something+right+now." alt=" "/>
@@ -17,7 +17,7 @@ Request Timeout</a> for more projects.
 
 > DISCLAIMER:
 > some links might not work depending on your app settings.
-## <div align="center" id="contrib">Contributions</div>
+## <div align="center">Contributions</div>
 <div align="center">
   <picture>
     <source
@@ -36,7 +36,7 @@ Request Timeout</a> for more projects.
 </div>
 
 ---
-## <div align="center" id="skills">Skill stack</div>
+## <div align="center">Skill stack</div>
 <div align="center">
   <picture>
     <img
@@ -60,7 +60,7 @@ Request Timeout</a> for more projects.
 </div>
 <div align="left"><picture><img alt="" src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/gitCommit.svg"/></picture></div>
 
-## <div align="center" id="about">About Me</div>
+## <div align="center">About Me</div>
 <p align="center">I'm BananaOfficial, a Python & Java developer.</p>
 <p align="center">I mess around with Python, Java, Qt, and Regex.</p>
 <p align="center">I make random ideas into actual software.</p>
@@ -88,7 +88,7 @@ Request Timeout</a> for more projects.
   </a>
 </div>
 
-## <div align="center" id="contributing">Contributing</div>
+## <div align="center">Contributing</div>
 Found something **broken**?
 
 Have a ***cool idea***?
@@ -102,7 +102,7 @@ Feel free to email me or message me on telegram.
 ***If you contribute to a project or join RequestTimeout, your username will appear in the section below. This process can take up to 5 minutes.***
 
 ---
-## <div align="center" id="wall">The Wall Of Contributors</div>
+## <div align="center">The Wall Of Contributors</div>
 <div align="center">
   <picture>
     <img
@@ -111,7 +111,7 @@ Feel free to email me or message me on telegram.
   </picture>
 </div>
 
-## <div align="center" id="other">Other</div>
+## <div align="center">Other</div>
 <div>
   <picture align="left">
     <img
@@ -148,4 +148,4 @@ Feel free to email me or message me on telegram.
 </div>
 
 ---
-<div align="center" id="repos"><picture><img alt="" src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/circle2.svg"/></picture></div>
+<div align="center"><picture><img alt="" src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/circle2.svg"/></picture></div>
