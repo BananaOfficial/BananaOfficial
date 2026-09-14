@@ -16,7 +16,7 @@ Check out <a href="https://github.com/RequestTimeout"><img align="absbottom" src
 Request Timeout</a> for more projects.
 
 > DISCLAIMER:
-> some links might not work depending on your app settings.
+> some links might not work depending on your app settings. <picture><img src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/db.svg" width="1.5%"/></picture>
 ## <div align="center">Contributions</div>
 <div align="center">
   <picture>
@@ -130,7 +130,7 @@ Feel free to email me or message me on telegram.
   <picture align="right">
     <img
       src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/gear-icon.svg"
-      width="7.33333333333333%"
+      width="3.33333333333333%"
     />
   </picture>
 </div>
