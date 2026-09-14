@@ -137,4 +137,15 @@ Feel free to email me or message me on telegram.
   />
 </picture>
 
+---
+# <div align="center">Achievements</div>
+<div align="center">
+  <picture>
+    <img alt="" src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="7.5%"/>
+    <img alt="" src="https://github.githubassets.com/assets/quickdraw-default--light-medium-5450fadcbe37.png" width="7.5%"/>
+    <img alt="" src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="7.5%"/>
+  </picture>
+</div>
+
+---
 <div align="center"><picture><img alt="" src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/circle2.svg"/></picture></div>
