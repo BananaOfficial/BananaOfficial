@@ -6,7 +6,7 @@
 </div>
 
 ---
-GitHub: https://github.com/BananaOfficial
+GitHub: <picture> <img alt="" src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/svg" width="24" align="absbottom"/> </picture> https://github.com/BananaOfficial
 
 Modrinth: https://modrinth.com/user/BananaOfficial
 
@@ -137,7 +137,7 @@ Feel free to email me or message me on telegram.
     <img
       alt=""
       src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/VS.svg"
-      width="5%"
+      width="2.5%"
     />
   </picture>
 </div>
