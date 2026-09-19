@@ -8,7 +8,7 @@
 ---
 GitHub: <a href="https://github.com/BananaOfficial"><picture> <img alt="" src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/GitHub.svg" width="16" height="23" align="absbottom"/></picture>/BananaOfficial</a>
 
-Modrinth: https://modrinth.com/user/BananaOfficial<a href="https://modrinth.com/user/BananaOfficial"><picture> <img alt="" src="https://modrinth.com/favicon-32x32.png" width="16" align="absmiddle"/></picture>/user/BananaOfficial</a>
+Modrinth: <a href="https://modrinth.com/user/BananaOfficial"><picture> <img alt="" src="https://modrinth.com/favicon-32x32.png" width="16" align="absmiddle"/></picture>/user/BananaOfficial</a>
 
 Want more info? <a href="https://bananaofficial.github.io"> Click here </a>
 
