@@ -1,12 +1,12 @@
 # <div align="center">BananaOfficial</div>
 <div align="center">
   <picture>
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&height=28&width=600&duration=2500&pause=1000&color=00A315&center=true&vCenter=true&width=700&height=32&lines=Hi%2C+i'm+BananaOfficial+A+python+and+java+developer.;I+enjoy+messing+around+with+Regex.;And+i'm+probably+making+something+right+now." alt=" "/>
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&height=28&width=600&duration=2500&pause=1000&color=00A315&center=true&vCenter=true&width=700&height=32&lines=Hi%2C+i'm+BananaOfficial+A+python+and+java+developer.;I+enjoy+messing+around+with+Regex." alt=" "/>
   </picture>
 </div>
 
 ---
-GitHub: <picture> <img alt="" src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/svg" width="24" align="absbottom"/> </picture> https://github.com/BananaOfficial
+GitHub: <a href="https://github.com/BananaOfficial"><picture align="left"> <img alt="" src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/GitHub.svg" width="16" height="23" align="absbottom"/></picture>/BananaOfficial</a>
 
 Modrinth: https://modrinth.com/user/BananaOfficial
 
