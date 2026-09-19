@@ -128,7 +128,8 @@ Feel free to email me or message me on telegram.
   </picture>
   <picture align="center">
     <img
-      src="https://github-readme-streak-stats.herokuapp.com?user=BananaOfficial&theme=tokyonight"
+      src="https://streak-stats.demolab.com?user=BananaOfficial&theme=tokyonight&border_radius=9.43&short_numbers=true&fire=EB5454&border=292A3D"
+      alt=""
       width="33.33333333333333%"
     />
   </picture>
