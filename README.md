@@ -6,7 +6,7 @@
 </div>
 
 ---
-GitHub: <a href="https://github.com/BananaOfficial"><picture align="left"> <img alt="" src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/GitHub.svg" width="16" height="23" align="absbottom"/></picture>/BananaOfficial</a>
+GitHub: <a href="https://github.com/BananaOfficial"><picture> <img alt="" src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/GitHub.svg" width="16" height="23" align="absbottom"/></picture>/BananaOfficial</a>
 
 Modrinth: https://modrinth.com/user/BananaOfficial
 
