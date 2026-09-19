@@ -57,6 +57,11 @@ Request Timeout</a> for more projects.
       alt=""
       src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/JSON-icon.svg"
     />
+    <img
+      alt=""
+      src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/gear-icon.svg"
+      width="48"
+    />
   </picture>
 </div>
 <div align="left"><picture><img alt="" src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/gitCommit.svg"/></picture></div>
