@@ -130,8 +130,9 @@ Feel free to email me or message me on telegram.
   </picture>
   <picture align="right">
     <img
-      src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/gear-icon.svg"
-      width="3.33333333333333%"
+      alt=""
+      src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/VS.svg"
+      width="5%"
     />
   </picture>
 </div>
