@@ -15,8 +15,7 @@ Want more info? <a href="https://bananaofficial.github.io"> Click here </a>
 Check out <a href="https://github.com/RequestTimeout"><img align="absbottom" src="https://github.com/RequestTimeout.png" width="22" height="22" alt=""/>
 Request Timeout</a> for more projects.
 
-> DISCLAIMER:
-> 
+> [!IMPORTANT]
 > some links might not work depending on your app settings. <picture><img src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/db.svg" width="1.5%"/></picture>
 ## <div align="center">Contributions</div>
 <div align="center">
