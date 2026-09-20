@@ -60,6 +60,7 @@ Request Timeout</a> for more projects.
       alt=""
       src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/gear-icon.svg"
       width="48"
+      align="abstop"
     />
   </picture>
 </div>
