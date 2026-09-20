@@ -26,6 +26,12 @@ jobs:
             const fs = require("fs");
 
             const org = "RequestTimeout";
+            const user = "BananaOfficial";
+
+            const followerUsers = [
+              "BananaOfficial",
+              "RequestTimeout"
+            ];
 
             const ignored = new Set(
               process.env.IGNORE_USERS
@@ -36,6 +42,7 @@ jobs:
 
             const users = new Set();
 
+            // RequestTimeout members
             for await (const response of github.paginate.iterator(
               github.rest.orgs.listMembers,
               {
@@ -50,7 +57,8 @@ jobs:
               }
             }
 
-            const repos = await github.paginate(
+            // RequestTimeout repositories
+            const orgRepos = await github.paginate(
               github.rest.repos.listForOrg,
               {
                 org,
@@ -58,7 +66,18 @@ jobs:
               }
             );
 
-            for (const repo of repos) {
+            // BananaOfficial repositories
+            const userRepos = await github.paginate(
+              github.rest.repos.listForUser,
+              {
+                username: user,
+                per_page: 100,
+                type: "owner"
+              }
+            );
+
+            // Contributors to RequestTimeout repositories
+            for (const repo of orgRepos) {
               for await (const response of github.paginate.iterator(
                 github.rest.repos.listContributors,
                 {
@@ -74,6 +93,48 @@ jobs:
                     !ignored.has(contributor.login.toLowerCase())
                   ) {
                     users.add(contributor.login);
+                  }
+                }
+              }
+            }
+
+            // Contributors to BananaOfficial repositories
+            for (const repo of userRepos) {
+              for await (const response of github.paginate.iterator(
+                github.rest.repos.listContributors,
+                {
+                  owner: user,
+                  repo: repo.name,
+                  per_page: 100,
+                  anon: false
+                }
+              )) {
+                for (const contributor of response.data) {
+                  if (
+                    contributor.login &&
+                    !ignored.has(contributor.login.toLowerCase())
+                  ) {
+                    users.add(contributor.login);
+                  }
+                }
+              }
+            }
+
+            // Followers of BananaOfficial and RequestTimeout
+            for (const username of followerUsers) {
+              for await (const response of github.paginate.iterator(
+                github.rest.users.listFollowersForUser,
+                {
+                  username,
+                  per_page: 100
+                }
+              )) {
+                for (const follower of response.data) {
+                  if (
+                    follower.login &&
+                    !ignored.has(follower.login.toLowerCase())
+                  ) {
+                    users.add(follower.login);
                   }
                 }
               }
