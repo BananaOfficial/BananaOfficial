@@ -104,7 +104,7 @@ Feel free to email me or message me on telegram.
 
 > *If it makes a project better, I'm interested.*
 
-***If you contribute to a project or join RequestTimeout, your username will appear in the section below. This process can take up to 5 minutes.***
+***If you contribute to a project or join RequestTimeout or follow me, your username will appear in the section below. This process can take up to 5 minutes.***
 
 ---
 ## <div align="center">The Wall Of Contributors</div>
