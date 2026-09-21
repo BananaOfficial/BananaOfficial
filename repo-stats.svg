@@ -2,8 +2,8 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="1000"
-  height="1255"
-  viewBox="0 0 1000 1255"
+  height="1060"
+  viewBox="0 0 1000 1060"
 >
 
   <style>
@@ -129,19 +129,19 @@
             x="54"
             y="102"
             class="title"
-          >BananaOfficial</text>
+          >Refs</text>
 
           <text
             x="54"
             y="124"
             class="location"
-          >BananaOfficial</text>
+          >RequestTimeout</text>
 
           <text
             x="54"
             y="152"
             class="description"
-          >No description.</text>
+          >A small and simple way to search folders for files using re...</text>
 
           <line
             x1="54"
@@ -161,7 +161,7 @@
             x="54"
             y="220"
             class="value"
-          >2</text>
+          >1</text>
 
           <text
             x="170"
@@ -225,7 +225,7 @@
             x="534"
             y="102"
             class="title"
-          >RElog</text>
+          >localS</text>
 
           <text
             x="534"
@@ -237,7 +237,7 @@
             x="534"
             y="152"
             class="description"
-          >A small but super fast way to search log files using regex.</text>
+          >A small and simple local HTTP server on you computer</text>
 
           <line
             x1="534"
@@ -321,7 +321,7 @@
             x="54"
             y="297"
             class="title"
-          >Refs</text>
+          >RElog</text>
 
           <text
             x="54"
@@ -333,7 +333,7 @@
             x="54"
             y="347"
             class="description"
-          >A small and simple way to search folders for files using re...</text>
+          >A small but super fast way to search log files using regex.</text>
 
           <line
             x1="54"
@@ -897,19 +897,19 @@
             x="54"
             y="882"
             class="title"
-          >localS</text>
+          >BananaOfficial</text>
 
           <text
             x="54"
             y="904"
             class="location"
-          >RequestTimeout</text>
+          >BananaOfficial</text>
 
           <text
             x="54"
             y="932"
             class="description"
-          >A small and simple local HTTP server on you computer</text>
+          >No description.</text>
 
           <line
             x1="54"
@@ -929,7 +929,7 @@
             x="54"
             y="1000"
             class="value"
-          >1</text>
+          >2</text>
 
           <text
             x="170"
@@ -993,13 +993,13 @@
             x="534"
             y="882"
             class="title"
-          >modID</text>
+          >bananaofficial.github.io</text>
 
           <text
             x="534"
             y="904"
             class="location"
-          >RequestTimeout</text>
+          >BananaOfficial</text>
 
           <text
             x="534"
@@ -1060,102 +1060,6 @@
           <text
             x="840"
             y="1000"
-            class="value"
-          >0</text>
-
-        </g>
-        
-        <g>
-
-          <rect
-            x="30"
-            y="1045"
-            width="460"
-            height="175"
-            rx="16"
-            class="card"
-          />
-
-          <rect
-            x="30"
-            y="1045"
-            width="6"
-            height="175"
-            rx="3"
-            class="accent"
-          />
-
-          <text
-            x="54"
-            y="1077"
-            class="title"
-          >bananaofficial.github.io</text>
-
-          <text
-            x="54"
-            y="1099"
-            class="location"
-          >BananaOfficial</text>
-
-          <text
-            x="54"
-            y="1127"
-            class="description"
-          >No description.</text>
-
-          <line
-            x1="54"
-            y1="1145"
-            x2="466"
-            y2="1145"
-            class="divider"
-          />
-
-          <text
-            x="54"
-            y="1173"
-            class="label"
-          >Contributors</text>
-
-          <text
-            x="54"
-            y="1195"
-            class="value"
-          >1</text>
-
-          <text
-            x="170"
-            y="1173"
-            class="label"
-          >Stars</text>
-
-          <text
-            x="170"
-            y="1195"
-            class="value"
-          >0</text>
-
-          <text
-            x="255"
-            y="1173"
-            class="label"
-          >Views</text>
-
-          <text
-            x="255"
-            y="1195"
-            class="value"
-          >Unavailable</text>
-
-          <text
-            x="360"
-            y="1173"
-            class="label"
-          >Forks</text>
-
-          <text
-            x="360"
-            y="1195"
             class="value"
           >0</text>
 
