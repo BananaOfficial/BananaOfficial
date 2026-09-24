@@ -67,11 +67,9 @@ Request Timeout</a> for more projects.
 <div align="left"><picture><img alt="" src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/gitCommit.svg"/></picture></div>
 
 ## <div align="center">About Me</div>
-<p align="center">I'm BananaOfficial, a Python & Java developer.</p>
-<p align="center">I mess around with Python, Java, Qt, and Regex.</p>
-<p align="center">I make random ideas into actual software.</p>
-<p align="center">If there's a weird technical problem, I'll probably try to solve it.</p>
-<p align="center">Owner of RequestTimeout.</p>
+I turn random ideas into actual software.
+I enjoy Python, Java, Qt, Regex, and unnecessarily complicated technical projects.
+Owner of RequestTimeout.
 <div align="center"><picture><img alt="" src="https://raw.githubusercontent.com/BananaOfficial/BananaOfficial/main/SVG/circle.svg"/></picture></div>
 
 ---
